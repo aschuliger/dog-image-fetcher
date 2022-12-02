@@ -74,3 +74,4 @@ for i in range(0,num_of_images):
         print("Can't click!")
 
 print(len(image_srcs))
+insert_scraped_images.insert_many(query, image_srcs)
